@@ -28,7 +28,7 @@ setup(
     url='https://github.com/Netflix-Skunkworks/riskquant',
     download_url=('https://github.com/Netflix-Skunkworks/riskquant/archive/' + version + '.tar.gz'),
     setup_requires=['setupmeta'],
-    python_requires='>=3.5, <3.8',
+    python_requires='>=3.5, <=3.8',
     install_requires=[
         'matplotlib',
         'numpy <1.19.0, >= 1.16.0',
